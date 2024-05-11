@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
     font-weight: 400;
     font-style: normal;
 }
+
 nav {
     background-color: steelblue;
     padding: 10px;
