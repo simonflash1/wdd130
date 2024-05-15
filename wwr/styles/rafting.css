@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Shadows+Into+Light&display=swap');
+
+:root {
+    --primary-color: #06BEE1;
+    --secondary-color: #1768AC;
+    --accent1-color: #2541B2;
+    --accent2-color: #03256C;
+
+    --heading-font: 'Kalam', serif;
+    --paragraph-font: 'Shadows Into Light', serif;
+
+    --nav-background-color: #71A2B6;
+    --nav-link-color: #982649;
+    --nav-hover-link-color: #982649;
+    --nav-hover-background-color: #7C8483;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--secondary-color);
+    line-height: 1.6;
+}
+
+header nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+}
+
+.hero article img {
+    float: right;
+    margin: 0 0 10px 10px;
+    max-width: 200px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+section h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+section p {
+    color: var(--secondary-color);
+}
+
+section img {
+    display: inline-block;
+    width: 30%;
+    margin: 10px 1%;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    color: var(--secondary-color);
+}
+
+footer .sociallinks a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .sociallinks a img {
+    width: 24px;
+    height: 24px;
+}
+
+footer .sociallinks a {
+    text-decoration: none;
+}
