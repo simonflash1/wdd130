@@ -22,7 +22,8 @@ body {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -31,16 +32,19 @@ p {
     color: var(--secondary-color);
     line-height: 1.6;
 }
+
 header {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
 }
+
 nav {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
 }
+
 header nav a {
     color: var(--nav-link-color);
     text-decoration: none;
@@ -110,6 +114,38 @@ section img {
     box-sizing: border-box;
 }
 
+.adventure {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.adventure h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    grid-column: span 5;
+    text-align: center;
+}
+
+.adventure figure {
+    margin: 0;
+}
+
+.adventure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.adventure figcaption {
+    text-align: center;
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
+    margin-top: 5px;
+}
+
+
 footer {
     text-align: center;
     margin-top: 20px;
@@ -132,6 +168,7 @@ footer .sociallinks a img {
 footer .sociallinks a {
     text-decoration: none;
 }
+
 footer .sociallinks {
     justify-content: end;
 }
