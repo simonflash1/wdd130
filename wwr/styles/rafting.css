@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Shadows+Into+Light&display=swap');
 
 :root {
-    --primary-color: #06BEE1;
+    --primary-color: #005F7F;
     --secondary-color: #1768AC;
     --accent1-color: #2541B2;
     --accent2-color: #03256C;
@@ -10,9 +10,9 @@
     --paragraph-font: 'Shadows Into Light', serif;
 
     --nav-background-color: #71A2B6;
-    --nav-link-color: #982649;
-    --nav-hover-link-color: #982649;
-    --nav-hover-background-color: #7C8483;
+    --nav-link-color: #03256C;
+    --nav-hover-link-color: #03256C;
+    --nav-hover-background-color: #4A5A5F;
 }
 
 body {
@@ -31,7 +31,16 @@ p {
     color: var(--secondary-color);
     line-height: 1.6;
 }
-
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
 header nav a {
     color: var(--nav-link-color);
     text-decoration: none;
@@ -122,4 +131,7 @@ footer .sociallinks a img {
 
 footer .sociallinks a {
     text-decoration: none;
+}
+footer .sociallinks {
+    justify-content: end;
 }
