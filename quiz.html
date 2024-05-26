@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1>Quiz About HTML and CSS</h1>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Basic HTML and CSS Questions</legend>
+            <div class="q1">
+                <label for="q1">What does HTML mean?
+                    <br>
+                    <input type="text" name="q1" id="q1">
+                </label>
+            </div>
+            <div class="q2">
+                <label for="q2">How is the syntax for importing fonts in CSS?
+                    <br>
+                    <textarea name="q2" id="q2" placeholder="Your Answer"></textarea>
+                </label>
+            </div>
+            <div class="q3">
+                <label for="q3">Witch of the following tags is used to define inline styles?
+                    <br>
+                    <select name="q3" id="q3">
+                        <option value="" selected disabled>Choose One...</option>
+                        <option value="style">style</option>
+                        <option value="class">class</option>
+                        <option value="id">id</option>
+                    </select>
+                </label>
+            </div>
+            <div class="q4">
+                <label for="q4">How many versions of CSS exist?
+                    <br>
+                    <input type="number" name="q4" id="q4">
+                </label>
+            </div>
+        </fieldset>
+    </form>
+    <button type="submit">Submit Quiz</button>
+</body>
+
+</html>
