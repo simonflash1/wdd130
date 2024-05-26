@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Us page for Splash Zone Rafting">
+    <meta name="author" content="Nestor Emmanuel Lizarraga">
+    <title>Contact Us Splash Zone Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Our Info</h2>
+            <p>Av Roca 942. SM de Tuc.<br>
+                Telephone: 4297164<br>
+                Email: splash_zone_rafting@rafting.com<br></p>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4233.493802449834!2d-65.21338800555412!3d-26.84218620907384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDUwJzMxLjYiUyA2NcKwMTInNTEuOSJX!5e0!3m2!1ses!2sar!4v1716713630787!5m2!1ses!2sar"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section class="adventure">
+            <h2>Meet our Employees</h2>
+            <figure><img src="images/employee1.jpg" alt="employee1">
+                <figcaption>Sarah - Instructor</figcaption>
+            </figure>
+            <figure><img src="images/employee2.jpg" alt="employee2">
+                <figcaption>Daniela - Seller</figcaption>
+            </figure>
+            <figure><img src="images/employee3.jpg" alt="employee3">
+                <figcaption>Nathalie - Rescue Personnel</figcaption>
+            </figure>
+        </section>
+        <div class="form">
+            <form>
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <div>
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Enter Your Full Name">
+                    </div>
+                    <div>
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail" placeholder="Enter your Email Adress">
+                    </div>
+                    <div class="purpose">
+                        <div>
+                            <input type="radio" id="generalinquiry" name="purpose" value="generalinquiry">
+                            <label for="generalinquiry">General Inquiry</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                    <div>
+                        <textarea name="feedback" id="feedback" placeholder="Enter your message"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="suscribe" name="suscribe">
+                        <label for="suscribe">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                </fieldset>
+                <button type="submit">Submit my Message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Splash Zone Rafting - Nestor Emmanuel Lizarraga</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/twitter.svg" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
